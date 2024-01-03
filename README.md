@@ -37,3 +37,21 @@ int main()
     getch();
 }
 ```
+
+- If you see a circle in a new window then the graphics.h is working properly.
+
+- To check the OpenGL is working or not Create a new GLUT project and give the project name "OpenGl" and click "Next" button
+
+- It will show you to select GLUT library, select the below path and click "Next" button
+```
+C:\Program Files\CodeBlocks\MinGW
+```
+
+- Click next and then finish
+
+- You will get a main.cpp file, on that file on line no 14 you need to add the below code
+```
+#include <windows.h>
+```
+
+- Now press "F9" key from your keyboard or click "Build and Run" button
