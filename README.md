@@ -5,14 +5,22 @@
 
 - Replace the files in 'C:\Program Files\CodeBlocks\MinGW' with files from "<a href="https://github.com/mdarikrayhan/CSE-4206-Computer-Graphics-Sessional/blob/main/Graphics_h_and_OpenGL/MinGW.zip">MinGW.zip</a>"
 
-- Copy the "<a href="https://github.com/mdarikrayhan/CSE-4206-Computer-Graphics-Sessional/blob/main/Graphics_h_and_OpenGL/glut32.dll">glut32.dll</a>" to 'C:\Windows\System'
+- add the flowing path in Environment Variables
+```
+C:\Program Files\CodeBlocks\MinGW\bin
+```
+
+- Copy the "<a href="https://github.com/mdarikrayhan/CSE-4206-Computer-Graphics-Sessional/blob/main/Graphics_h_and_OpenGL/glut32.dll">glut32.dll</a>" to the flowing path
+```
+C:\Windows\System
+```
 
 - Open CodeBlocks and go to (Settings > Compiler > Linker Settings)
 
-- Link Libraries (left), Click on "Add" button, then click "Browse" and select the "libbbgi.a"
-   [file that you have copied in CodeBlocks directory..
-   Default location is (C:\Program Files\CodeBlocks\MinGW\lib\libbgi.a)
-   and then click "Open" button.]
+- Link Libraries (left), Click on "Add" button, then click "Browse" and select the "libbbgi.a" and then click "Open" . File path
+```
+C:\Program Files\CodeBlocks\MinGW\lib\libbgi.a
+```
 
 - Other linker option (right), copy the text below and paste there
 ```
