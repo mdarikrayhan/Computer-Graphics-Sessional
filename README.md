@@ -1,6 +1,9 @@
 # Computer Graphics Sessional
 
-## Instruction for adding graphics file in CodeBlocks
+## Video Tutorial : 
+- <a href="https://www.youtube.com/watch?v=btTLvK-zokU">How to install glut 3.7.6 OpenGL and graphics.h Library on Codeblocks 20.03 in Windows</a>
+
+## Instruction for adding graphics and OpenGL file in CodeBlocks
 - Install '<a href="https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe">codeblocks-20.03mingw-setup.exe</a>'
 
 - Replace the files in 'C:\Program Files\CodeBlocks\MinGW' with files from "<a href="https://github.com/mdarikrayhan/CSE-4206-Computer-Graphics-Sessional/blob/main/Graphics_h_and_OpenGL/MinGW.zip">MinGW.zip</a>"
